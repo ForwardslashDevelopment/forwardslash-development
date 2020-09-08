@@ -1,12 +1,40 @@
 {
   "name": "forwardslash-development",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "Forwardslash Development -- Modern Application Development",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ForwardslashDevelopment/forwardslash-development"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "jv <jv@forwardslash-development.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ForwardslashDevelopment/forwardslash-development/issues"
+  },
+  "homepage": "https://forwardslash-development.io",
+  "tags": [
+    "forwardslash-development",
+    "react",
+    "nextjs",
+    "pwa",
+    "static generation"
+  ],
+  "keywords": [
+    "forwardslash development",
+    "progressive application development",
+    "modern development",
+    "reactive development",
+    "static generation"
+  ],
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
+  },
+  "dependencies": {
+    "next": "^9.5.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
 }
